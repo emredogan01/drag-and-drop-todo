@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Drag and Drop TODO Application
+
+This project is a drag and drop TODO application built using Next.js and
+Zustand. The application allows users to easily create and organize their tasks.
+
+## Features
+
+- **Drag and Drop**: Easily rearrange tasks by dragging and dropping them.
+- **State Management with Zustand**: Manage the application's state efficiently
+  using Zustand.
+- **TypeScript Support**: Built with TypeScript for type safety and improved
+  developer experience.
+- **Radix UI Components**: Utilizes Radix UI components for a polished and
+  accessible UI.
+- **Tailwind CSS**: Styled using Tailwind CSS for quick and responsive design.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js
+- npm or pnpm
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your-username/next-zustand-todo.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+### Install NPM packages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm install or pnpm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+To start the development server, run:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev or pnpm dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open http://localhost:3000 with your browser to see the result.
+
+![](./screen.gif)
